@@ -44,7 +44,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboard
       background={{ variant: "gradient-bars" }}
-      title="Fikirlerinizi Giydiriyoruz: NEWMODA TEXTILE ile Anahtar Teslim Üretim"
+      title="ŞIKLIĞIN ADRESİ NEWMODA TEXTILE"
       description="Kumaş seçiminden kalıp hazırlamaya, baskıdan paketlemeye kadar tüm süreçleri markanıza özel yönetiyoruz."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776853509525-n0x9f3fo.png"
       imageAlt="Üretim Süreci"
