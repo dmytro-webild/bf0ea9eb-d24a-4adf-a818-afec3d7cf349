@@ -71,8 +71,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       team={[
-        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Üretim Direktörü", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-lj14msxj.jpg", imageAlt: "Nurhan Yeşilbağcıyan" },
-        { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg", imageAlt: "Jilber Yeşilbağcıyan" },
+        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Üretim Direktörü", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg", imageAlt: "Nurhan Yeşilbağcıyan" },
+        { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg", imageAlt: "Jilber Yeşilbağcıyan" },
       ]}
       title="Kurucularımız ve Tecrübemiz"
       description="Avrupa standartlarında üretim disiplini ve stratejik yönetim gücü."
