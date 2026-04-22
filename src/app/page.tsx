@@ -71,7 +71,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       team={[
-        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Üretim Direktörü", imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-thinking-about-business-while-holding-hand-chin-isolated-dark-background_613910-6615.jpg", imageAlt: "Nurhan Yeşilbağcıyan" },
+        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Üretim Direktörü", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-lj14msxj.jpg", imageAlt: "Nurhan Yeşilbağcıyan" },
         { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "http://img.b2bpic.net/free-photo/closeup-handsome-middle-aged-business-leader_1262-4822.jpg", imageAlt: "Jilber Yeşilbağcıyan" },
       ]}
       title="Kurucularımız ve Tecrübemiz"
@@ -119,12 +119,12 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Pamuklu Polo Yaka", price: "100% Pamuk - 200 GSM", imageSrc: "http://img.b2bpic.net/free-photo/elements-fashion-designing-studio_23-2150407927.jpg" },
-        { id: "p2", name: "Viskon Bluz", price: "Viskon - 150 GSM", imageSrc: "http://img.b2bpic.net/free-photo/close-up-hands-manufacturing-clothes_23-2149007429.jpg" },
-        { id: "p3", name: "Keten Pantolon", price: "Keten - 220 GSM", imageSrc: "http://img.b2bpic.net/free-photo/high-angle-christmas-wrapping-process_23-2148332560.jpg" },
-        { id: "p4", name: "Spor Sweatshirt", price: "Pamuk-Polyester - 300 GSM", imageSrc: "http://img.b2bpic.net/free-photo/essential-elements-fashion-design-studio_23-2150414765.jpg" },
-        { id: "p5", name: "Dokuma Gömlek", price: "Poplin - 120 GSM", imageSrc: "http://img.b2bpic.net/free-photo/side-view-designers-working-together_52683-98105.jpg" },
-        { id: "p6", name: "Örme Elbise", price: "Pamuk-Lycra - 180 GSM", imageSrc: "http://img.b2bpic.net/free-photo/vintage-woman-sewing-cloth-by-hand-with-embroidery-set-wooden-table-people-handmade-diy-housework-concept_1150-13528.jpg" },
+        { id: "p1", name: "Pamuklu Polo Yaka", price: "100% Pamuk - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-lj14msxj.jpg" },
+        { id: "p2", name: "Viskon Bluz", price: "Viskon - 150 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-evkt8k9d.jpg" },
+        { id: "p3", name: "Keten Pantolon", price: "Keten - 220 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-5m4bjq0r.jpg" },
+        { id: "p4", name: "Spor Sweatshirt", price: "Pamuk-Polyester - 300 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-89kx9y68.jpg" },
+        { id: "p5", name: "Dokuma Gömlek", price: "Poplin - 120 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852355141-75lzzmz8.jpg" },
+        { id: "p6", name: "Örme Elbise", price: "Pamuk-Lycra - 180 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852364204-50kdav9z.jpg" },
       ]}
       title="Ürün Portföyümüz"
       description="Kumaş tipi ve teknik detaylarıyla sunduğumuz kalite."
