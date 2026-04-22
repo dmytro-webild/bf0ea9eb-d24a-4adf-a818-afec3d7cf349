@@ -65,7 +65,7 @@ export default function LandingPage() {
       description="Kumaş seçiminden kalıp hazırlamaya, baskıdan paketlemeye kadar tüm süreçleri markanıza özel yönetiyoruz."
       leftCarouselItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-sewing-machine_23-2148898079.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-sewing-machine_23-2148898079.jpg?_wi=1",
           imageAlt: "Üretim Süreci 1",
         },
         {
@@ -171,7 +171,7 @@ export default function LandingPage() {
           id: "t1",
           name: "NURHAN YEŞİLBAĞCIYAN",
           role: "Üretim Direktörü",
-          imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-thinking-about-business-while-holding-hand-chin-isolated-dark-background_613910-6615.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-thinking-about-business-while-holding-hand-chin-isolated-dark-background_613910-6615.jpg?_wi=1",
           imageAlt: "Nurhan Yeşilbağcıyan",
         },
         {
@@ -206,7 +206,7 @@ export default function LandingPage() {
           description: "Hassas kesimden profesyonel dikim aşamalarına kusursuz işçilik.",
           bentoComponent: "reveal-icon",
           icon: Tag,
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-sewing-machine_23-2148898079.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/woman-working-sewing-machine_23-2148898079.jpg?_wi=2",
           imageAlt: "textile fabric quality inspection",
         },
         {
@@ -214,7 +214,7 @@ export default function LandingPage() {
           description: "Ütüleme, son kontrol ve etiketleme sonrası teslimata hazır hale getirme.",
           bentoComponent: "reveal-icon",
           icon: CheckSquare,
-          imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-thinking-about-business-while-holding-hand-chin-isolated-dark-background_613910-6615.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/confident-african-american-businessman-black-classic-jacket-thinking-about-business-while-holding-hand-chin-isolated-dark-background_613910-6615.jpg?_wi=2",
           imageAlt: "textile fabric quality inspection",
         },
       ]}
