@@ -46,7 +46,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       title="Fikirlerinizi Giydiriyoruz: NEWMODA TEXTILE ile Anahtar Teslim Üretim"
       description="Kumaş seçiminden kalıp hazırlamaya, baskıdan paketlemeye kadar tüm süreçleri markanıza özel yönetiyoruz."
-      imageSrc="http://img.b2bpic.net/free-photo/woman-working-sewing-machine_23-2148898079.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776853509525-n0x9f3fo.png"
       imageAlt="Üretim Süreci"
       buttons={[{ text: "Üretim Hakkında Bilgi Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
       avatars={[
