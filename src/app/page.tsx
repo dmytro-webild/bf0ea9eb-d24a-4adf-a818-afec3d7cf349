@@ -89,7 +89,7 @@ export default function LandingPage() {
         { title: "Üretim ve Dikim", description: "Hassas kesimden profesyonel dikim aşamalarına kusursuz işçilik.", bentoComponent: "reveal-icon", icon: Tag },
         { title: "Kalite ve Paketleme", description: "Ütüleme, son kontrol ve etiketleme sonrası teslimata hazır hale getirme.", bentoComponent: "reveal-icon", icon: CheckSquare },
       ]}
-      title="Full Package Üretim Sürecimiz"
+      title="Üretim Sürecimiz"
       description="Hayalinizdeki ürünü belirtin, gerisini biz halledelim."
     />
   </div>
