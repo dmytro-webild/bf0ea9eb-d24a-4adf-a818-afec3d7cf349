@@ -100,12 +100,12 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       metrics={[
-        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-repairing-clothes_23-2150746451.jpg" },
-        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileri.", imageSrc: "http://img.b2bpic.net/free-photo/fashion-designer-working-her-workshop-alone_23-2148877343.jpg" },
-        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim.", imageSrc: "http://img.b2bpic.net/free-photo/sewing-machine-accessories-workdesk-shop_23-2147874993.jpg" },
-        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller ve etiketleme.", description: "Teslimata hazır kusursuz ürünler.", imageSrc: "http://img.b2bpic.net/free-photo/man-choosing-tie-shirt_1098-21878.jpg" },
-        { id: "m5", value: "Showroom", title: "Ürünlerimizi inceleyin.", description: "Kurumsal ve profesyonel ortam.", imageSrc: "http://img.b2bpic.net/free-photo/various-type-fabric-clothes-shop_23-2148175735.jpg" },
-        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler.", imageSrc: "http://img.b2bpic.net/free-photo/still-life-fashion-designer-s-office_23-2150543693.jpg" },
+        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
+        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileri.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851170062-zaln9hhy.png" },
+        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851128376-r57dc5rr.png" },
+        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller ve etiketleme.", description: "Teslimata hazır kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
+        { id: "m5", value: "Showroom", title: "Ürünlerimizi inceleyin.", description: "Kurumsal ve profesyonel ortam.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
+        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
       ]}
       title="Fabrikamızdan Görüntüler"
       description="Üretim birimlerimiz ve yönetim ofisimizden detaylar."
