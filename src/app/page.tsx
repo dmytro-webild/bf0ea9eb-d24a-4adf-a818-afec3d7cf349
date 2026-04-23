@@ -119,12 +119,12 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Pamuklu Polo Yaka", price: "100% Pamuk - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932980536-gcsifqf7.png" },
-        { id: "p2", name: "Viskon Bluz", price: "Viskon - 150 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933014126-ih64o76e.png" },
-        { id: "p3", name: "Keten Pantolon", price: "Keten - 220 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932954425-yu28665t.png" },
-        { id: "p4", name: "Spor Sweatshirt", price: "Pamuk-Polyester - 300 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933146503-sj86k0lw.png" },
-        { id: "p5", name: "Dokuma Gömlek", price: "Poplin - 120 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933438356-yowkav41.png" },
-        { id: "p6", name: "Örme Elbise", price: "Pamuk-Lycra - 180 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933448471-o9g1e15m.png" },
+        { id: "p1", name: "Yumuşak Dökümlü Viskon", price: "100% Viskon - 100 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932980536-gcsifqf7.png" },
+        { id: "p2", name: "Tencel-Pamuk Karışmı,Chambray", price: "Chambray  - 150 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933014126-ih64o76e.png" },
+        { id: "p3", name: "Doğal Dokulu Keten", price: "100% Keten - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932954425-yu28665t.png" },
+        { id: "p4", name: "Yüksek Kaliteli Mikro Süet ", price: "100% Polyester - 400 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776935172639-gkwphp3n.png" },
+        { id: "p5", name: "Tok Duruşlu Poliviskon", price: "65% Polyester,32% Viskon, 3% Elastan - 300 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933823730-mx78sutu.png" },
+        { id: "p6", name: "Serin Tutan Yumuşak Tuşeli Viskon", price: "100% Viskon - 100 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933448471-o9g1e15m.png" },
       ]}
       title="Ürün Portföyümüz"
       description="Kumaş tipi ve teknik detaylarıyla sunduğumuz kalite."
