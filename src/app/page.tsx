@@ -121,7 +121,7 @@ export default function LandingPage() {
       products={[
         { id: "p1", name: "Yumuşak Dökümlü Viskon", price: "100% Viskon - 100 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776935794057-m9kj8zid.png" },
         { id: "p2", name: "Tencel-Pamuk Karışmı,Chambray", price: "Chambray  - 150 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933014126-ih64o76e.png" },
-        { id: "p3", name: "Doğal Dokulu Keten", price: "100% Keten - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932954425-yu28665t.png" },
+        { id: "p3", name: "Doğal Dokulu Keten", price: "100% Keten - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776935916558-78jqbnm8.png" },
         { id: "p4", name: "Yüksek Kaliteli Mikro Süet ", price: "100% Polyester - 400 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776935290704-qoijmv2s.png" },
         { id: "p5", name: "Tok Duruşlu Poliviskon", price: "65% Polyester,32% Viskon, 3% Elastan - 300 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933823730-mx78sutu.png" },
         { id: "p6", name: "Serin Tutan Yumuşak Tuşeli Viskon", price: "100% Viskon - 100 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776935290704-3zy5pu2o.png" },
