@@ -7,6 +7,7 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Lato } from "next/font/google";
+import { Roboto } from "next/font/google";
 
 
 
@@ -19,10 +20,11 @@ export const metadata: Metadata = {
   },
 };
 
-const lato = Lato({
-  variable: "--font-lato",
+
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
+  weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 export default function RootLayout({
@@ -33,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${lato.variable} antialiased`}>
+        <body className={`${roboto.variable} antialiased`}>
           <Tag />
           {children}
           <script
