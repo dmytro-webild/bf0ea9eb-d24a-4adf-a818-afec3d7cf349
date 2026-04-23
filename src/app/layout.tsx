@@ -8,6 +8,7 @@ import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Lato } from "next/font/google";
 import { Roboto } from "next/font/google";
+import { Raleway } from "next/font/google";
 
 
 
@@ -22,8 +23,9 @@ export const metadata: Metadata = {
 
 
 
-const inter = Inter({
-  variable: "--font-inter",
+
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
 });
 
@@ -35,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${inter.variable} antialiased`}>
+        <body className={`${raleway.variable} antialiased`}>
           <Tag />
           {children}
           <script
