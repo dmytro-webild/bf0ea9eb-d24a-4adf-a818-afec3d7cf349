@@ -50,9 +50,9 @@ export default function LandingPage() {
       imageAlt="Üretim Süreci"
       buttons={[{ text: "Üretim Hakkında Bilgi Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
       avatars={[
-        { src: "http://img.b2bpic.net/free-photo/studio-portrait-bearded-hipster-glasses-wearing-casual_613910-12290.jpg", alt: "Ekip" },
-        { src: "http://img.b2bpic.net/free-photo/portrait-handsome-confident-businessman-black-wall_176420-3460.jpg", alt: "Ekip" },
-        { src: "http://img.b2bpic.net/free-photo/portrait-young-confident-man_176474-85919.jpg", alt: "Ekip" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938496632-1yrv3exi.png", alt: "Ekip" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938530503-wz59fqfe.png", alt: "Ekip" },
+        { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938517185-cq7wwrpu.png", alt: "Ekip" },
       ]}
       avatarText="100+ Başarılı Proje"
       marqueeItems={[
