@@ -119,10 +119,10 @@ export default function LandingPage() {
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
-        { id: "p1", name: "Pamuklu Polo Yaka", price: "100% Pamuk - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-lj14msxj.jpg" },
+        { id: "p1", name: "Pamuklu Polo Yaka", price: "100% Pamuk - 200 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932980536-gcsifqf7.png" },
         { id: "p2", name: "Viskon Bluz", price: "Viskon - 150 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-evkt8k9d.jpg" },
-        { id: "p3", name: "Keten Pantolon", price: "Keten - 220 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-5m4bjq0r.jpg" },
-        { id: "p4", name: "Spor Sweatshirt", price: "Pamuk-Polyester - 300 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852249313-89kx9y68.jpg" },
+        { id: "p3", name: "Keten Pantolon", price: "Keten - 220 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776932954425-yu28665t.png" },
+        { id: "p4", name: "Spor Sweatshirt", price: "Pamuk-Polyester - 300 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776933014126-ih64o76e.png" },
         { id: "p5", name: "Dokuma Gömlek", price: "Poplin - 120 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852355141-75lzzmz8.jpg" },
         { id: "p6", name: "Örme Elbise", price: "Pamuk-Lycra - 180 GSM", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852364204-50kdav9z.jpg" },
       ]}
