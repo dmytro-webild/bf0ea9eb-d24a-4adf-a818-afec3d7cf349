@@ -48,7 +48,7 @@ export default function LandingPage() {
       description="Kumaş seçiminden kalıp hazırlamaya, baskıdan paketlemeye kadar tüm süreçleri markanıza özel yönetiyoruz."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776853509525-n0x9f3fo.png"
       imageAlt="Üretim Süreci"
-      buttons={[{ text: "Üretim Hakkında Bilgi Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
+      buttons={[{ text: "Ücretsiz Teklif Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938496632-1yrv3exi.png", alt: "Ekip" },
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938530503-wz59fqfe.png", alt: "Ekip" },
