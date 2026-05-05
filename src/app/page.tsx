@@ -97,18 +97,20 @@ export default function LandingPage() {
   <div id="gallery" data-section="gallery">
       <MetricCardEleven
       animationType="slide-up"
-      textboxLayout="default"
+      textboxLayout="inline-image"
       useInvertedBackground={true}
       metrics={[
-        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
-        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileri.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858725069-ajiyzlgo.png" },
-        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858557468-ngc70uzq.png" },
-        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller ve etiketleme.", description: "Teslimata hazır kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
-        { id: "m5", value: "Showroom", title: "Ürünlerimizi inceleyin.", description: "Kurumsal ve profesyonel ortam.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
-        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
+        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım. Profesyonel kalıp hazırlık süreci.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
+        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileriyle fireyi en aza indiriyoruz.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858725069-ajiyzlgo.png" },
+        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim hattı, yüksek kapasiteli dikim gücü.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858557468-ngc70uzq.png" },
+        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller.", description: "Teslimata hazır, ütülenmiş ve etiketlenmiş kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
+        { id: "m5", value: "Showroom", title: "Ürünleri inceleyin.", description: "Kurumsal ve profesyonel ortamda koleksiyonlarımızı sergiliyoruz.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
+        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler ve müşteri ilişkileri yönetimi.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
       ]}
       title="Fabrikamızdan Görüntüler"
       description="Üretim birimlerimiz ve yönetim ofisimizden detaylar."
+      cardClassName="min-h-[400px]"
+      mediaClassName="object-cover w-full h-full"
     />
   </div>
 
