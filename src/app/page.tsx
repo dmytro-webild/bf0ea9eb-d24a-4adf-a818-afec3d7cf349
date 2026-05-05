@@ -117,7 +117,7 @@ export default function LandingPage() {
   <div id="products" data-section="products">
       <ProductCardOne
       animationType="slide-up"
-      textboxLayout="split-actions"
+      textboxLayout="default"
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
       products={[
@@ -130,7 +130,6 @@ export default function LandingPage() {
       ]}
       title="Ürün Portföyümüz"
       description="Kumaş tipi ve teknik detaylarıyla sunduğumuz kalite."
-      buttons={[{ text: "Numune Talep Edin", href: "https://wa.me/905330546773?text=Merhaba%2C%20ürün%20portföyünüzdeki%20kumaşlar%20için%20numune%20talebinde%20bulunmak%20istiyorum." }]}
     />
   </div>
 
