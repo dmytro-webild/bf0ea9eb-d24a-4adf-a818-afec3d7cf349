@@ -48,7 +48,7 @@ export default function LandingPage() {
       description="Kumaş seçiminden kalıp hazırlamaya, baskıdan paketlemeye kadar tüm süreçleri markanıza özel yönetiyoruz."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776853509525-n0x9f3fo.png"
       imageAlt="Üretim Süreci"
-      buttons={[{ text: "Üretim Hakkında Bilgi Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
+      buttons={[{ text: "Ücretsiz Teklif Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938496632-1yrv3exi.png", alt: "Ekip" },
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938530503-wz59fqfe.png", alt: "Ekip" },
@@ -85,9 +85,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Hızla ölçeklenen üretim kapasitesi", description: "Yüksek hacimli siparişlerinizde üretim hızını düşürmeden, markanızın büyüme hedeflerini destekliyoruz.", bentoComponent: "reveal-icon", icon: Scissors },
-        { title: "Stok yönetimi ve lojistik desteği", description: "Ürünlerinizin güvenli depolanması ve global lojistik ağıyla zamanında teslimat sağlıyoruz.", bentoComponent: "reveal-icon", icon: Tag },
-        { title: "Kalite kontrol ve standart uyumu", description: "Uluslararası kalite standartlarında üretim ile iade oranlarınızı minimize ediyoruz.", bentoComponent: "reveal-icon", icon: CheckSquare },
+        { title: "Kumaş Tedariki ve Kalıp", description: "Markanız için en doğru kumaş seçimi ve hassas kalıp hazırlığı.", bentoComponent: "reveal-icon", icon: Scissors },
+        { title: "Üretim ve Dikim", description: "Hassas kesimden profesyonel dikim aşamalarına kusursuz işçilik.", bentoComponent: "reveal-icon", icon: Tag },
+        { title: "Kalite ve Paketleme", description: "Ütüleme, son kontrol ve etiketleme sonrası teslimata hazır hale getirme.", bentoComponent: "reveal-icon", icon: CheckSquare },
       ]}
       title="Üretim Sürecimiz"
       description="Hayalinizdeki ürünü belirtin, gerisini biz halledelim."
