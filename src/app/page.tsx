@@ -12,7 +12,7 @@ import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatin
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TeamCardFive from '@/components/sections/team/TeamCardFive';
-import { CheckSquare, Scissors, Tag, TrendingUp, Zap, Clock } from "lucide-react";
+import { CheckSquare, Scissors, Tag } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -102,6 +102,7 @@ export default function LandingPage() {
         gridVariant="bento-grid"
         animationType="blur-reveal"
         textboxLayout="default"
+        useInvertedBackground={false}
         metrics={[
             { id: "m1", value: "98%", description: "Zamanında Teslimat Oranı" },
             { id: "m2", value: "100k+", description: "Aylık Üretim Kapasitesi" },
@@ -125,8 +126,6 @@ export default function LandingPage() {
       ]}
       title="Fabrikamızdan Görüntüler"
       description="Üretim birimlerimiz ve yönetim ofisimizden detaylar."
-      cardClassName="min-h-[400px]"
-      mediaClassName="object-cover w-full h-full"
     />
   </div>
 
