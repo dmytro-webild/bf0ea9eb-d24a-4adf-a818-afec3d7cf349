@@ -7,7 +7,6 @@ import FeatureBento from '@/components/sections/feature/FeatureBento';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -95,22 +94,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="metrics" data-section="metrics">
-      <MetricCardTwo 
-        title="Operasyonel Başarı"
-        description="İşletmenizi bir üst seviyeye taşıyan performans metriklerimiz."
-        gridVariant="bento-grid"
-        animationType="blur-reveal"
-        textboxLayout="default"
-        useInvertedBackground={false}
-        metrics={[
-            { id: "m1", value: "98%", description: "Zamanında Teslimat Oranı" },
-            { id: "m2", value: "100k+", description: "Aylık Üretim Kapasitesi" },
-            { id: "m3", value: "15+", description: "Global Lojistik Çözüm Ortağı" }
-        ]}
-      />
-  </div>
-
   <div id="gallery" data-section="gallery">
       <MetricCardEleven
       animationType="slide-up"
@@ -126,6 +109,8 @@ export default function LandingPage() {
       ]}
       title="Fabrikamızdan Görüntüler"
       description="Üretim birimlerimiz ve yönetim ofisimizden detaylar."
+      cardClassName="min-h-[400px]"
+      mediaClassName="object-cover w-full h-full"
     />
   </div>
 
