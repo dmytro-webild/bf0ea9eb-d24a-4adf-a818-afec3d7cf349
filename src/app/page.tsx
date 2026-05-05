@@ -48,7 +48,7 @@ export default function LandingPage() {
       description="Kumaş seçiminden kalıp hazırlamaya, baskıdan paketlemeye kadar tüm süreçleri markanıza özel yönetiyoruz."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776853509525-n0x9f3fo.png"
       imageAlt="Üretim Süreci"
-      buttons={[{ text: "Üretim Hakkında Bilgi Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
+      buttons={[{ text: "Ücretsiz Teklif Alın", href: "https://wa.me/905330546773?text=Merhaba%20NEWMODA%20TEXTİLE%20ile%20üretim%20hakkında%20bilgi%20almak%20istiyorum." }]}
       avatars={[
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938496632-1yrv3exi.png", alt: "Ekip" },
         { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776938530503-wz59fqfe.png", alt: "Ekip" },
@@ -71,8 +71,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       team={[
-        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Owner ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg", imageAlt: "Nurhan Yeşilbağcıyan" },
-        { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg", imageAlt: "Jilber Yeşilbağcıyan" },
+        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Owner ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg?_wi=1", imageAlt: "Nurhan Yeşilbağcıyan" },
+        { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg?_wi=2", imageAlt: "Jilber Yeşilbağcıyan" },
       ]}
       title="Kurucularımız ve Tecrübemiz"
       description="Avrupa standartlarında üretim disiplini ve stratejik yönetim gücü."
@@ -97,18 +97,20 @@ export default function LandingPage() {
   <div id="gallery" data-section="gallery">
       <MetricCardEleven
       animationType="slide-up"
-      textboxLayout="default"
+      textboxLayout="inline-image"
       useInvertedBackground={true}
       metrics={[
-        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
-        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileri.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858725069-ajiyzlgo.png" },
-        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858557468-ngc70uzq.png" },
-        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller ve etiketleme.", description: "Teslimata hazır kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
-        { id: "m5", value: "Showroom", title: "Ürünlerimizi inceleyin.", description: "Kurumsal ve profesyonel ortam.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
-        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
+        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım. Profesyonel kalıp hazırlık süreci.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
+        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileriyle fireyi en aza indiriyoruz.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858725069-ajiyzlgo.png" },
+        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim hattı, yüksek kapasiteli dikim gücü.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858557468-ngc70uzq.png" },
+        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller.", description: "Teslimata hazır, ütülenmiş ve etiketlenmiş kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
+        { id: "m5", value: "Showroom", title: "Ürünleri inceleyin.", description: "Kurumsal ve profesyonel ortamda koleksiyonlarımızı sergiliyoruz.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
+        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler ve müşteri ilişkileri yönetimi.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
       ]}
       title="Fabrikamızdan Görüntüler"
       description="Üretim birimlerimiz ve yönetim ofisimizden detaylar."
+      cardClassName="min-h-[400px]"
+      mediaClassName="object-cover w-full h-full"
     />
   </div>
 
