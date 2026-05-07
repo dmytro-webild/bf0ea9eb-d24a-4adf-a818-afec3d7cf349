@@ -12,8 +12,8 @@ import { Raleway } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'NEWMODA TEXTILE | Profesyonel Anahtar Teslim Üretim',
-  description: 'NEWMODA TEXTILE olarak kumaş seçiminden paketlemeye kadar profesyonel tekstil üretim hizmetleri sunuyoruz.',
+  title: "NEWMODA TEXTILE | Şıklığın Adresi",
+  description: "NEWMODA TEXTILE olarak kumaş seçiminden paketlemeye kadar profesyonel tekstil üretim hizmetleri sunuyoruz.",
   openGraph: {
     "title": "NEWMODA TEXTILE",
     "siteName": "NEWMODA TEXTILE"
