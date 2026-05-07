@@ -7,7 +7,6 @@ import FeatureBento from '@/components/sections/feature/FeatureBento';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
 import MetricCardEleven from '@/components/sections/metrics/MetricCardEleven';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -72,8 +71,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       team={[
-        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Owner ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg?_wi=1", imageAlt: "Nurhan Yeşilbağcıyan" },
-        { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg?_wi=2", imageAlt: "Jilber Yeşilbağcıyan" },
+        { id: "t1", name: "NURHAN YEŞİLBAĞCIYAN", role: "Owner ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg", imageAlt: "Nurhan Yeşilbağcıyan" },
+        { id: "t2", name: "JİLBER YEŞİLBAĞCIYAN", role: "Genel Müdür", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776852455925-sjwiykl9.jpg", imageAlt: "Jilber Yeşilbağcıyan" },
       ]}
       title="Kurucularımız ve Tecrübemiz"
       description="Avrupa standartlarında üretim disiplini ve stratejik yönetim gücü."
@@ -86,43 +85,27 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        { title: "Hızla ölçeklenen üretim kapasitesi", description: "Yüksek hacimli siparişlerinizde üretim hızını düşürmeden, markanızın büyüme hedeflerini destekliyoruz.", bentoComponent: "reveal-icon", icon: Scissors },
-        { title: "Stok yönetimi ve lojistik desteği", description: "Ürünlerinizin güvenli depolanması ve global lojistik ağıyla zamanında teslimat sağlıyoruz.", bentoComponent: "reveal-icon", icon: Tag },
-        { title: "Kalite kontrol ve standart uyumu", description: "Uluslararası kalite standartlarında üretim ile iade oranlarınızı minimize ediyoruz.", bentoComponent: "reveal-icon", icon: CheckSquare },
+        { title: "Kumaş Tedariki ve Kalıp", description: "Markanız için en doğru kumaş seçimi ve hassas kalıp hazırlığı.", bentoComponent: "reveal-icon", icon: Scissors },
+        { title: "Üretim ve Dikim", description: "Hassas kesimden profesyonel dikim aşamalarına kusursuz işçilik.", bentoComponent: "reveal-icon", icon: Tag },
+        { title: "Kalite ve Paketleme", description: "Ütüleme, son kontrol ve etiketleme sonrası teslimata hazır hale getirme.", bentoComponent: "reveal-icon", icon: CheckSquare },
       ]}
       title="Üretim Sürecimiz"
       description="Hayalinizdeki ürünü belirtin, gerisini biz halledelim."
     />
   </div>
 
-  <div id="metrics" data-section="metrics">
-      <MetricCardTwo 
-        title="Operasyonel Başarı"
-        description="İşletmenizi bir üst seviyeye taşıyan performans metriklerimiz."
-        gridVariant="bento-grid"
-        animationType="blur-reveal"
-        textboxLayout="default"
-        useInvertedBackground={false}
-        metrics={[
-            { id: "m1", value: "98%", description: "Zamanında Teslimat Oranı" },
-            { id: "m2", value: "100k+", description: "Aylık Üretim Kapasitesi" },
-            { id: "m3", value: "15+", description: "Global Lojistik Çözüm Ortağı" }
-        ]}
-      />
-  </div>
-
   <div id="gallery" data-section="gallery">
       <MetricCardEleven
       animationType="slide-up"
-      textboxLayout="inline-image"
+      textboxLayout="default"
       useInvertedBackground={true}
       metrics={[
-        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım. Profesyonel kalıp hazırlık süreci.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
-        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileriyle fireyi en aza indiriyoruz.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858725069-ajiyzlgo.png" },
-        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim hattı, yüksek kapasiteli dikim gücü.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858557468-ngc70uzq.png" },
-        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller.", description: "Teslimata hazır, ütülenmiş ve etiketlenmiş kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
-        { id: "m5", value: "Showroom", title: "Ürünleri inceleyin.", description: "Kurumsal ve profesyonel ortamda koleksiyonlarımızı sergiliyoruz.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
-        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler ve müşteri ilişkileri yönetimi.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
+        { id: "m1", value: "Modelhane", title: "Tasarımlarınızın başlangıç noktası.", description: "Detaylara önem veren uzman yaklaşım.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850577533-cm0mppv7.png" },
+        { id: "m2", value: "Kesim Atölyesi", title: "Hassas üretim disiplini.", description: "Mükemmel kesim teknolojileri.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858725069-ajiyzlgo.png" },
+        { id: "m3", value: "Dikiş Hattı", title: "Profesyonel işçilik.", description: "Avrupa standartlarında üretim.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776858557468-ngc70uzq.png" },
+        { id: "m4", value: "Ütü ve Paketleme", title: "Son kontroller ve etiketleme.", description: "Teslimata hazır kusursuz ürünler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776850305171-ij8gji8p.png" },
+        { id: "m5", value: "Showroom", title: "Ürünlerimizi inceleyin.", description: "Kurumsal ve profesyonel ortam.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851106747-mxdd3knl.jpg" },
+        { id: "m6", value: "Yönetim Ofisi", title: "Operasyonel güç merkezi.", description: "Kurumsal stratejiler.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Chc2qswBE8pMYFiBWnY5G8qpZC/uploaded-1776851794719-iqvi078i.png" },
       ]}
       title="Fabrikamızdan Görüntüler"
       description="Üretim birimlerimiz ve yönetim ofisimizden detaylar."
